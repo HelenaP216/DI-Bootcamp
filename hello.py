@@ -1,0 +1,1 @@
+print("Hello — Python is running from the external disk! 🌿")

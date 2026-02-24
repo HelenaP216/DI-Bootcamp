@@ -174,7 +174,7 @@ print(dog1.fight(dog3))
 #       the previous exercise.
 
 import random
-from ExerciseXP2 import Dog
+#from dogs import Dog
 
 # Step 2: Create the PetDog Class
 #     Create a class called PetDog that inherits from 

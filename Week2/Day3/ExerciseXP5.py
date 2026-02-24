@@ -39,7 +39,5 @@ def time_until_new_year():
     minutes = (seconds % 3600) // 60
 
     print(f"Time left until January 1st: {days} days, {hours} hours, {minutes} minutes left.")
-#    print("Time left until January 1st:")
-#    print(time_left)
 
 time_until_new_year()

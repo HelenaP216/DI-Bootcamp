@@ -66,7 +66,7 @@ class Text:
         for w in words:
             freq[w] = freq.get(w, 0) + 1
 
-        # Return the word with the highest count
+        # Returns the word with the highest count
         return max(freq, key=freq.get)
 
 # Step 4: Implement unique_words Method
@@ -158,9 +158,9 @@ class TextModification(Text):
 
 # Testing:
 t = Text("Hello, hello, shalom! This is a test. This test is simple, but it is effective.")
-print(t.word_frequency("test"))      # 2
-print(t.most_common_word())          # 'this' or 'test' or 'hello' (depends on counts)
-print(sorted(t.unique_words()))      # list of unique words
+print(t.word_frequency("test"))
+print(t.most_common_word())
+print(sorted(t.unique_words()))
 
 tm = TextModification("Wow!!! This... is indeed a *very* messy room !!! Room #1   !!")
 print(tm.remove_punctuation())

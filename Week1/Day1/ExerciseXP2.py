@@ -17,9 +17,28 @@
 #        3 to 12 years old: $10
 #        Over 12 years old: $15
 
+# Dictionary mapping age categories to prices
+ticket_prices = {
+    "baby": 0,
+    "child": 10,
+    "full price": 15
+}
+
+# Example lookup
+if age < 3:
+    ticket_prices["baby"]
+elif age <= 12:
+    ticket_prices["child"]
+else:
+    ticket_prices["full price"]
+
+print(get_price(25)) # Output: 24
+
+
 # Family Data:
 
 family = {"rick": 43, 'beth': 13, 'morty': 5, 'summer': 8}
+
 
 #    Loop through the family dictionary to calculate
 #        the total cost.
